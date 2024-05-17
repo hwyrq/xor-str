@@ -14,4 +14,4 @@ description = "XOR 编译期加密字符串并且运行时自动解密,XOR encry
 license = "Apache-2.0"
 [dependencies]
 syn = { version = "2.0.64" }
-xor-str-encode = { path = "xor-str-encode" }
+xor-str-encode = {version = "0.1.0", path = "xor-str-encode" }
