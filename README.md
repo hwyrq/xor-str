@@ -20,8 +20,8 @@
  # 使用方式 how to use
  ```
  [dependencies]
- xor-str = "0.1.2"
- xor-str-encode = "0.1.0"
+ xor-str = "*"
+ xor-str-encode = "*"
 
 
 use xor_str::xor;
