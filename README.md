@@ -19,6 +19,14 @@
 
  # 使用方式 how to use
  ```
- use xor_str::xor;
- let value = xor!("你好 世界！");
- println!("{}",value);
+ [dependencies]
+ xor-str = "0.1.0"
+ xor-str-encode = "0.1.0"
+
+
+use xor_str::xor;
+use xor_str::decode;
+use xor_str_encode::encode;
+fn main() {
+    println!("{}",xor!("Hello, world!"));
+}
