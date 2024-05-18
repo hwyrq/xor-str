@@ -1,6 +1,6 @@
 [package]
 name = "xor-str"
-version = "0.1.3"
+version = "0.1.4"
 edition = "2021"
 authors = ["wcz <hwyrqw@163.com>"]
 keywords = [
@@ -16,4 +16,4 @@ repository = "https://github.com/hwyrq/xor-str"
 readme = "README.md"
 [dependencies]
 syn = { version = "2.0.64" }
-xor-str-encode = {version = "0.1.0", path = "xor-str-encode" }
+xor-str-encode = {version = "0.1.1", path = "xor-str-encode" }
